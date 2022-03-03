@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-image: url(4kkk.jpg);
+    height: 1500px;
+    font-family: 'Exo', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    height: 1500px;
+}
+
+.top{
+    border: solid 5px rgb(0, 0, 70);
+    width: 990px;
+    height: 100px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    font-family: 'Syne Mono', monospace;
+}
+
+.nav{
+    border: solid 2px rgb(25, 25, 25);
+    width: 820px;
+    height: 20px;
+    margin: auto;
+    background-color: rgb(10, 10, 10);
+    color: rgb(0, 255, 0);
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.nav a{
+    border-right: 2px dotted rgb(0, 255, 0);
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.nav a:last-child{
+    border: none;
+}
+
+.nav a:hover{
+    color: aqua;
+
+}
+
+.center{
+    background-color: lightblue;
+    margin: auto;
+    width: 820px;
+    text-align: center;
+    text-align: justify;
+    height: 1000px;
+    margin-top: 7px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+b{
+    font-size: 30px;
+}
+
+.przycisk{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 47px;
+    left: 145px;
+    text-align: center;
+    font-size: 18px;
+    padding: auto;
+    color: rgb(0, 255, 0);
+    background-color: rgb(10, 10, 10);
+    border: none;
+    cursor: pointer;
+}
+
+.przycisk:hover{
+    color: aqua;
+}
